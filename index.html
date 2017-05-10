@@ -11,31 +11,56 @@
     <!-- Styles -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/common.css">
+	<!-- Fonts styles-->
+	<link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
-	<header class="container">
-		<nav class="nav-bar">
+	<nav class="nav-bar">
+
+		<div class="nav-bar-container">
+
 			<div class="nav-title-container">
-				<a href="#main" class="nav-title bolder-uppercase">Start Bootstrap</a>
+				<a href="#main" class="nav-title text-style">Start Bootstrap</a>
+			</div>
+			
+			<div>
+				<ul class="menu-list">
+					<li class="menu-list-item">
+						<a href="#portfolio" class="menu-link text-style">Portfolio</a>
+					</li>
+					<li class="menu-list-item">
+						<a href="#about" class="menu-link text-style">About</a>
+					</li>
+					<li class="menu-list-item">
+						<a href="#contact" class="menu-link text-style">Contact</a>
+					</li>
+				</ul>
 			</div>
 
-			<ul class="menu-list">
-				<li class="list-item-list">
-					<a href="#portfolio" class="menu-link">Portfolio</a>
-				</li>
-				<li class="list-item-list">
-					<a href="#about" class="menu-link">About</a>
-				</li>
-				<li class="list-item-list">
-					<a href="#contact" class="menu-link">Contact</a>
-				</li>
-			</ul>
-		</nav>
+		</div>
+	</nav>
+
+	<header class="container">
+
+		<section id="main">
+			<div class="main-container">
+				<figure class="profile">
+					<img src="assets/images/profile.png" alt="profile">
+				</figure>
+
+				<h1 class="main-title text-style">Start Bootstrap</h1>
+
+				<div class="star-container">
+					<hr class="icon-star"></hr>
+				</div>
+
+				<span class="main-text">Web Developer - Graphic Artist - User Experience Designer</span>
+			</div>
+		</section>
 	</header>
-	
-	<section id="main"></section>
+
 	<section id="portfolio"></section>
 	<section id="about"></section>
 	<section id="contact"></section>
