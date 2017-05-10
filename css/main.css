@@ -16,6 +16,7 @@ header{
 
 nav{
 	background: #2c3e50;
+	z-index: 2;
 }
 
 .nav-bar-container{
@@ -74,4 +75,38 @@ hr.icon-star{
 	text-align: center;
 	max-width: 250px;
 	margin: 25px auto 0px;
+}
+
+#portfolio{
+	width: 100%;
+	height: 870px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-title{
+	text-align: center;
+}
+
+#gallery{
+	width: 100%;
+	max-width: 1140px;
+}
+
+.div-portfolio{
+	display: flex;
+	flex-direction: row;
+}
+
+.image-portfolio{
+	width: 100%;
+}
+
+.figure-portfolio{
+	padding: 20px 30px 10px 0;
+}
+
+.figure-portfolio:last-of-type{
+	padding-right: 0;
 }

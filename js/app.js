@@ -8,7 +8,7 @@ window.onscroll = function (){
 	var scroll = window.pageYOffset || document.documentElement.scrollTop;
 	if(scroll > lastScroll){
 		header.classList.add("header-scroll");
-		nav-title.classList.add("navTitle-scroll");
+		navTitle.classList.add("navTitle-scroll");
 	}else if(scroll > 750){
 		for(var i = 0; i < listItem.length; i++){
 			listItem[i].classList.add("active");
